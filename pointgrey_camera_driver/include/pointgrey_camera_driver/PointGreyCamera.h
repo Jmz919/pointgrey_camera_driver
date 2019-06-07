@@ -66,6 +66,7 @@ public:
   *
   * \return Returns true when the configuration could be applied without modification.
   */
+  
   bool setNewConfiguration(pointgrey_camera_driver::PointGreyConfig &config, const uint32_t &level);
 
   /** Parameters that need a sensor to be stopped completely when changed. */
